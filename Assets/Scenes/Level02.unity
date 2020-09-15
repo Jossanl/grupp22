@@ -442,7 +442,7 @@ PrefabInstance:
     - target: {fileID: 4941126774757872756, guid: 1b1f40f6d7a5c4a3bb0640764b8026b4,
         type: 3}
       propertyPath: m_Name
-      value: EnemySlimePrefab (1)
+      value: EnemySlime2
       objectReference: {fileID: 0}
     - target: {fileID: 4941126774757872758, guid: 1b1f40f6d7a5c4a3bb0640764b8026b4,
         type: 3}
@@ -14125,7 +14125,7 @@ PrefabInstance:
     - target: {fileID: 4941126774757872756, guid: 1b1f40f6d7a5c4a3bb0640764b8026b4,
         type: 3}
       propertyPath: m_Name
-      value: EnemySlimePrefab
+      value: EnemySlime
       objectReference: {fileID: 0}
     - target: {fileID: 4941126774757872758, guid: 1b1f40f6d7a5c4a3bb0640764b8026b4,
         type: 3}
