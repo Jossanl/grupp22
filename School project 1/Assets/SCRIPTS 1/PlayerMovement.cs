@@ -42,8 +42,8 @@ public class PlayerMovement : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space) == true) {
             isJumpPressed = true;
-            animator.SetTrigger("DoJump"); 
-        }
+            animator.SetTrigger("DoJump");
+     }
         animator.SetBool("isGrounded", isGrounded);
         animator.SetFloat("Speed", Mathf.Abs(moveDirection));
   }
@@ -76,7 +76,7 @@ public class PlayerMovement : MonoBehaviour
         rigidBody2D.velocity = Vector3.SmoothDamp(rigidBody2D.velocity, moveDirection, ref velocity, smoothTime);
 
         if (isJumpPressed == true && isGrounded == true) {
-            rigidBody2D.AddForce(new Vector2(0f, jumpForce * 100f)); 
+            rigidBody2D.AddForce(new Vector2(0f, jumpForce * 100f));
         }
 
         if (moveDirection.x > 0f && isFacingLeft == true ) {
