@@ -204,8 +204,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundCheck: {fileID: 4141005633750777944}
-  movementSpeed: 7
-  jumpForce: 5
+  movementSpeed: 6
+  jumpForce: 4
   smoothTime: 0.3
   whatIsGround:
     serializedVersion: 2
