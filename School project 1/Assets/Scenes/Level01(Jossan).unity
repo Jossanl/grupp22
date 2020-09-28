@@ -395,8 +395,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143075206}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11, y: 8.1, z: 9}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: 7.5, y: 12.3, z: 9}
+  m_LocalScale: {x: 11.042, y: 11.042, z: 11.042}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
@@ -3545,9 +3545,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questGiverText: {fileID: 1299974183}
   textComponent: {fileID: 1044142879}
-  questBeginText: Collect 3 coins!
+  questBeginText: Collect 6 coins!
   questCompleteText: Go to the Door!
-  amountToCollect: 3
+  amountToCollect: 6
   doorToOpenWhenQuestIsComplete: {fileID: 161811442}
 --- !u!61 &1540594629
 BoxCollider2D:
