@@ -37,10 +37,9 @@ public class PlayerMovement : MonoBehaviour
     // This is also a method
   void Update() {
         moveDirection = Input.GetAxis("Horizontal");
-        if (Mathf.Abs(moveDirection) > 0.05) {
-           
-        }
+        
         if (Input.GetKeyDown(KeyCode.Space) == true) {
+
             isJumpPressed = true;
             animator.SetTrigger("DoJump");
      }
@@ -76,6 +75,7 @@ public class PlayerMovement : MonoBehaviour
         rigidBody2D.velocity = Vector3.SmoothDamp(rigidBody2D.velocity, moveDirection, ref velocity, smoothTime);
 
         if (isJumpPressed == true && isGrounded == true) {
+            print("Jump");
             rigidBody2D.AddForce(new Vector2(0f, jumpForce * 100f));
         }
 
