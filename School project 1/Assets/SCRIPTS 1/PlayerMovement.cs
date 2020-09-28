@@ -24,6 +24,8 @@ public class PlayerMovement : MonoBehaviour
    private Vector3 velocity;
    public float smoothTime = 0.2f;
 
+    
+
     [SerializeField] private LayerMask whatIsGround;
 
     // This is a method
@@ -32,6 +34,8 @@ public class PlayerMovement : MonoBehaviour
         rigidBody2D = gameObject.GetComponent<Rigidbody2D>();
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         animator = gameObject.GetComponent<Animator>();
+        
+
    } // This is the end of the method
 
     // This is also a method
@@ -45,6 +49,9 @@ public class PlayerMovement : MonoBehaviour
      }
         animator.SetBool("isGrounded", isGrounded);
         animator.SetFloat("Speed", Mathf.Abs(moveDirection));
+
+
+       
   }
     private void FixedUpdate() {
             isGrounded = false;
