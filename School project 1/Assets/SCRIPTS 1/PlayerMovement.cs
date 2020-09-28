@@ -75,7 +75,6 @@ public class PlayerMovement : MonoBehaviour
         rigidBody2D.velocity = Vector3.SmoothDamp(rigidBody2D.velocity, moveDirection, ref velocity, smoothTime);
 
         if (isJumpPressed == true && isGrounded == true) {
-            print("Jump");
             rigidBody2D.AddForce(new Vector2(0f, jumpForce * 100f));
         }
 
