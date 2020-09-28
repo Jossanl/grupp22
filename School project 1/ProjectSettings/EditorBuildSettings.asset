@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level03(Oliver) 1.unity
     guid: c7157b9aec91a3341bf96da65272536a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/PauseMenu.unity
     guid: 976acfd505b4643b28f4980b39e49c86
   m_configObjects: {}
