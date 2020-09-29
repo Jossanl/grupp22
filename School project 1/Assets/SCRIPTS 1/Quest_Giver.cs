@@ -12,7 +12,7 @@ public class Quest_Giver : MonoBehaviour
     [SerializeField] private string questBeginText;
     [SerializeField] private string questCompleteText;
 
-    [SerializeField] private int amountToCollect = 1;
+    [SerializeField] private int amountToCollect = 5;
 
     [SerializeField] private GameObject doorToOpenWhenQuestIsComplete;
     
