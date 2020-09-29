@@ -34,7 +34,8 @@ public class Quest_Giver : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision) {
         if(collision.CompareTag("Player") == true) {
 
-            if (collision.GetComponent<PlayerState>().coinAmount >= amountToCollect) {
+            if (collision.GetComponent<PlayerState>().coinAmount >= amountToCollect)
+            {
                 textComponent.text = questCompleteText;
                 collision.GetComponent<Quest_Player>().isQuestComplete = true;
                 doorToOpenWhenQuestIsComplete.SetActive(false);
